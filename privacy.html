@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Youtube-Long 앱 소개, 개인정보처리방침 및 이용 조건. App information, privacy and terms.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; base-uri 'none'; form-action 'none'">
+  <title>Youtube-Long · 개인정보처리방침 / Privacy</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#content">본문으로 / Skip to content</a>
+  <div class="page">
+    <header>
+      <p class="eyebrow" lang="en">Account owner’s publishing tool</p>
+      <a class="brand" href="index.html">Youtube-Long</a>
+      <p class="intro">한국어·영어 영상 준비와 비공개 업로드<br><span lang="en">Korean and English video preparation and private uploads</span></p>
+      <nav aria-label="문서 / Documents"><a href="index.html">앱 소개<span lang="en">App information</span></a>
+<a href="privacy.html" aria-current="page">개인정보처리방침<span lang="en">Privacy</span></a>
+<a href="terms.html">이용 조건<span lang="en">Terms</span></a></nav>
+    </header>
+    <main id="content">
+      <div class="document-heading"><h1>개인정보처리방침<span lang="en">Privacy</span></h1><p class="date">2026-10-15</p></div>
+      <div class="language-nav"><a href="#korean" lang="ko">한국어</a><a href="#english" lang="en">English</a></div>
+      <section id="korean" lang="ko" aria-label="한국어"><p>운영 및 문의: <a href="mailto:todayq@nole.co.kr">todayq@nole.co.kr</a>. 이 도구는 운영자가 소유한 YouTube 채널의 영상 준비와 업로드에 사용합니다.</p>
+<p><strong>접근하는 정보와 목적.</strong> Google OAuth로 이메일 주소와 확인 여부, YouTube 채널 ID·이름·업로드 기능 상태를 확인해 지정 계정과 채널인지 대조합니다. 운영자가 선택한 영상, 제목·설명, 자막과 썸네일은 해당 채널에 비공개 전송합니다. 전송을 재개하고 중복을 줄이기 위해 파일 해시, 업로드 세션, 영상 ID와 자막 트랙 ID를 로컬에 기록합니다.</p>
+<p><strong>요청 권한.</strong> openid와 userinfo.email은 계정 확인에 사용합니다. youtube.force-ssl은 영상과 자막 등의 API 작업에 사용합니다. Google이 이 범위에 부여하는 권한에는 보기·수정·삭제가 포함되지만, 현재 프로그램은 삭제·공개·예약 명령을 구현하지 않았습니다. 권한 부여와 실제 수행하는 작업을 구분합니다.</p>
+<p><strong>보관과 공유.</strong> OAuth 토큰과 클라이언트 파일은 운영자 장치의 접근이 제한된 로컬 경로에 보관하고 Git에 넣지 않습니다. 계정·채널 확인 결과와 운영 기록은 운영자의 비공개 프로젝트 문서에 보관될 수 있습니다. 선택한 업로드 자료는 Google/YouTube로 전송됩니다. Google 사용자 데이터를 판매하거나 광고, 범용 AI 모델 학습, 무관한 서비스의 분석에 사용하지 않습니다. 배포된 소개·정책 문서에는 토큰이나 비공개 업로드 자료를 넣지 않습니다.</p>
+<p><strong>인증 정보.</strong> Google 비밀번호를 수집하지 않습니다. 전화번호·인증번호·신분증·얼굴 영상 인증은 Google의 화면에서 소유자가 직접 진행하며 이 도구가 수집하거나 보관하지 않습니다.</p>
+<p><strong>보관 기간과 통제.</strong> 로컬 인증과 작업 기록은 운영에 필요한 동안 유지하며 소유자가 관리합니다. Google 계정의 서드파티 연결 관리에서 앱의 접근을 철회할 수 있습니다. 철회는 새로운 API 접근을 중단시키지만 로컬 기록이나 이미 업로드한 영상을 자동 삭제하지 않습니다. 로컬 인증 파일·기록 삭제와 YouTube 자료 관리는 별도로 진행하거나 문의 주소로 요청할 수 있습니다. Google/YouTube가 보관하는 자료에는 해당 서비스의 정책이 적용됩니다.</p>
+<p>Google API에서 받은 정보의 이용은 Google API 서비스 사용자 데이터 정책과 적용되는 Limited Use 요건을 따릅니다. 실제 정보 처리 방식이 바뀌면 이 문서와 앱 안내를 갱신합니다.</p>
+</section>
+      <section id="english" lang="en" aria-label="English"><h2>English</h2><p>Operator and contact: <a href="mailto:todayq@nole.co.kr">todayq@nole.co.kr</a>. The tool prepares and uploads videos for a YouTube channel owned by its operator.</p>
+<p><strong>Data and purposes.</strong> Google OAuth provides the account email and verification status and the YouTube channel ID, name, and upload eligibility. The tool compares them with the designated account and channel. Operator-selected video files, titles, descriptions, captions, and thumbnails are sent privately to that channel. Local file hashes, upload sessions, video IDs, and caption track IDs support resumable uploads and duplicate prevention.</p>
+<p><strong>Permissions.</strong> openid and userinfo.email identify the account. youtube.force-ssl authorizes relevant YouTube API operations, including caption uploads. Google&#39;s scope includes viewing, modifying, and deleting data. The current program does not implement deletion, publication, or scheduling commands; the granted scope and the actions actually performed are distinct.</p>
+<p><strong>Storage and sharing.</strong> OAuth tokens and client files stay in access-restricted local storage outside Git. Account and channel verification results and operational records may be kept in the operator&#39;s private project documentation. Selected upload materials are sent to Google/YouTube. Google user data is not sold or used for advertising, general-purpose AI model training, or unrelated service analytics. Published app information and policies exclude tokens and private upload materials.</p>
+<p><strong>Authentication.</strong> The tool does not collect a Google password, phone number, verification code, identity document, or facial verification video. The owner completes any required identity checks directly in Google&#39;s screens.</p>
+<p><strong>Retention and control.</strong> The owner manages local authorization and operational records for as long as needed for operation. Access can be revoked in Google Account&#39;s third-party connections settings. Revocation prevents new API access; it does not automatically erase local records or previously uploaded videos. The owner can separately remove local authorization files and records, manage materials in YouTube, or contact the operator for assistance. Google&#39;s policies apply to data retained by Google/YouTube.</p>
+<p>Use of information received from Google APIs follows the Google API Services User Data Policy and applicable Limited Use requirements. Changes in actual data handling will be reflected in this notice and the tool&#39;s instructions.</p>
+<p><a href="index.html">앱 소개 / App information</a> · <a href="terms.html">이용 조건 / Terms</a></p>
+</section>
+    </main>
+    <footer><p>문의 / Contact: <a href="mailto:todayq@nole.co.kr">todayq@nole.co.kr</a></p><p><a href="privacy.html">개인정보처리방침 / Privacy</a> · <a href="terms.html">이용 조건 / Terms</a></p></footer>
+  </div>
+</body>
+</html>
